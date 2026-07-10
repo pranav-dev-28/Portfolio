@@ -4,7 +4,6 @@ body {
 }
 
 .headerLinks {
-    background-color: pink;
     display: flex;
     flex-direction: row;
 }
@@ -14,7 +13,6 @@ h3 {
 }
 
 ul {
-    background-color: yellow;
     width: 800px;
     list-style: none;
     display: flex;
@@ -35,3 +33,49 @@ a {
     border-radius: 999px;
     color: white;
 }
+
+.Info {
+    display: flex;
+    background-color: chocolate;
+    flex-direction: row;
+}
+
+.Description {
+    background-color: aqua;
+    margin-left: 100px;
+}
+
+p {
+    font-weight: bolder;
+}
+
+#Hi {
+    border-radius: 999px;
+    background-color: green;
+    width: 60px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#Name {
+    font-size: 50px;
+    background-color: brown;
+}
+
+h2 {
+    color: purple;
+    font-size: 40px;
+}
+
+.WorkButton {
+    color: white;
+    background-color: black;
+    padding: 25px;
+}
+
+#profilePic {
+    width: 500px;
+    height: 500px;
+    margin-left: 420px;
+}
+
