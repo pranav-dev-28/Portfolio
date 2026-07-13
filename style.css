@@ -1,24 +1,26 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: aliceblue;
 }
 
 .headerLinks {
     display: flex;
     flex-direction: row;
+    font-weight: bolder;
 }
 
 h3 {
     margin-left: 100px;
 }
 
-ul {
+.header {
     width: 800px;
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-left: 700px;
+    margin-left: 740px;
     align-items: center;
 }
 
@@ -36,12 +38,10 @@ a {
 
 .Info {
     display: flex;
-    background-color: chocolate;
     flex-direction: row;
 }
 
 .Description {
-    background-color: aqua;
     margin-left: 100px;
 }
 
@@ -51,15 +51,15 @@ p {
 
 #Hi {
     border-radius: 999px;
-    background-color: green;
-    width: 60px;
+    width: 90px;
     text-align: center;
     font-weight: lighter;
+    border-style: solid;
+    border-color: black;
 }
 
 #Name {
     font-size: 50px;
-    background-color: brown;
 }
 
 h2 {
@@ -67,11 +67,70 @@ h2 {
     font-size: 40px;
 }
 
+.WorkClass {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
 .WorkButton {
     color: white;
-    background-color: black;
+    background-color: purple;
+    padding-top: 27px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 999px;
+    text-align: center;
+}
+
+
+#ResumeButton {
+    margin-left: 25px;
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    border-radius: 999px;
+    font-size: 16px;
+    text-align: center;
     padding: 25px;
 }
+
+.PTY {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 50px;
+    list-style: none;
+}
+
+#Projects {
+    border-style: solid;
+    border-color: whitesmoke;
+    margin-left: -50px;
+    border-radius: 11px;
+    font-size: 20px;
+}
+
+
+#Tech {
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 11px;
+    font-size: 20px;
+}
+
+#Learning {
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 11px;
+    font-size: 20px;
+}
+
 
 #profilePic {
     width: 500px;
@@ -79,3 +138,67 @@ h2 {
     margin-left: 420px;
 }
 
+.SkillLinks {
+    margin-left: -30px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#HTML {
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 11px;
+    font-size: 18px;
+}
+
+#CSS {
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 11px;
+    font-size: 18px;
+}
+
+#JavaScript {
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 11px;
+    font-size: 18px;
+}
+
+#React {
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 11px;
+    font-size: 18px;
+}
+
+#TypeScript {
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 11px;
+    font-size: 18px;
+}
+
+#Node {
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 11px;
+    font-size: 18px;
+}
+
+#Java{
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 11px;
+    font-size: 18px;;
+}
+
+#Git {
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 11px;
+    font-size: 18px;
+}
