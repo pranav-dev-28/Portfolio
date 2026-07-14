@@ -271,6 +271,7 @@ h2 {
     flex-direction: row;
     height: 80px;
     width: 90%;
+    margin-top: -10px;
 }
 
 #gitSymbol {
