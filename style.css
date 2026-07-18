@@ -154,6 +154,10 @@ h2 {
     justify-content: space-evenly;
 }
 
+i {
+    margin-top: 5px;
+}
+
 #HTML {
     border-style: solid;
     border-color: #1C6E8C;
